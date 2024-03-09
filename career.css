@@ -1,0 +1,17 @@
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .ml-4{
+    padding-left: 100px;
+  }
+  .mr-4{
+    
+  }
